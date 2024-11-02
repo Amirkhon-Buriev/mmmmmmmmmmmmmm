@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+  #ota{
+    display: flex;
+    gap:50px ;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body{
+    background-image: url(https://www.securitylab.ru/upload/iblock/b7b/77onpgq69qo0wj61moil0gvmim02re90.jpeg);
+  }
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    color: brown;
+}
+
